@@ -3,8 +3,9 @@
 1) Apply as below
 
 ```shell
+kubectl create namespace mongodb
 kubectl apply -f secrets.yaml
-kubectl apply -f statefulsets.yaml
+kubectl apply -f statefulstets.yaml
 kubectl apply -f service.yaml
 ```
 
